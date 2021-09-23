@@ -4,8 +4,11 @@ module.exports = {
 	theme: {
 		extend: {},
 	},
+
 	variants: {
-		extend: {},
+		// ...
+		scale: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
 	},
+
 	plugins: [],
 };
