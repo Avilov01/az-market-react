@@ -8,6 +8,11 @@ module.exports = {
 	variants: {
 		// ...
 		scale: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
+		extend: {
+			boxShadow: ['active'],
+			backgroundColor: ['active'],
+			backgroundOpacity: ['active'],
+		},
 	},
 
 	plugins: [],
