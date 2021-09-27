@@ -1,19 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { CartItem } from './CartItem';
 
-export const Drawer = () => {
+export const Drawer = ({ opened, onCloseCart }) => {
+	
 	return (
-		<div className='left-0 absolute top-0 w-full h-full bg-black bg-opacity-50 z-10'>
+		<div
+			className={`${
+				opened ? ' hidden' : ''
+			} left-0 absolute top-0 w-full h-full bg-black bg-opacity-50 z-10`}>
 			{/* Drawwer */}
-			<div className='flex flex-col p-6 h-full absolute bg-white w-3/10 right-0 shadow-xl opacity-100'>
+			<div className='flex flex-col p-6 h-full absolute bg-white w-3/10 right-0 shadow-xl'>
 				<h3 className='flex items-center justify-between mb-6 mx-0.5 font-bold text-3xl'>
 					Корзина{' '}
-					<div
-						className=' shadow hover:shadow-md bg-gray-100 bg-opacity-50 hover:bg-gray-100 hover:bg-opacity-80 active:bg-opacity-40  active:shadow-inner transform cursor-pointer  opacity-70 hover:opacity-100 rounded-lg w-10 overflow-hidden transition duration-300 ease-in-out '>
+					<div className=' shadow hover:shadow-md bg-gray-100 bg-opacity-50 hover:bg-gray-100 hover:bg-opacity-80 active:bg-opacity-40  active:shadow-inner transform cursor-pointer  opacity-70 hover:opacity-100 rounded-lg w-10 overflow-hidden transition duration-300 ease-in-out '>
 						<img
+							onClick={() => onCloseCart()}
 							className='transition ease-in-out duration-700 transform hover:rotate-90 opacity-70 h-full w-full p-2'
 							src='/img/btn-remove.svg'
-							alt='Remove'
+							alt='Close'
 						/>
 					</div>
 				</h3>

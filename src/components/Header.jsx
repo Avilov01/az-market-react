@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Header = () => {
+export const Header = ({ onClickCart }) => {
 	return (
 		<header className='flex justify-between px-8 py-5 w-11/12 m-auto shadow rounded-3xl bg-white'>
 			<div className='flex items-center'>
@@ -13,7 +13,12 @@ export const Header = () => {
 
 			<ul className='flex items-center gap-4'>
 				<li className='flex'>
-					<img className='h-6 opacity-70' src='/img/cart.svg' alt='cart' />
+					<img
+						className='h-6 opacity-70 cursor-pointer'
+						src='/img/cart.svg'
+						alt='cart'
+						onClick={() => onClickCart()}
+					/>
 					<span className='pl-2'>1 руб.</span>
 				</li>
 				<li>

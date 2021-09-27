@@ -1,252 +1,255 @@
-[
-   {
-      "id": 1,
-      "name": "Apocalypse AP-M61AE",
-      "brend": "Deaf Bonce",
-      "series": "Apocalypse",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/Apocalypse-ap-m61ae/mdlJfJMjD.jpg",
-      "price": 5790
-   },
-   {
-      "id": 2,
-      "name": "Apocalypse AP-M81SE",
-      "brend": "Deaf Bonce",
-      "series": "Apocalypse",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/Apocalypse-ap-m81se/UzpJUd2h9.jpg",
-      "price": 5490
-   },
-   {
-      "id": 3,
-      "name": "Apocalypse AP-M81A",
-      "brend": "Deaf Bonce",
-      "series": "Apocalypse",
-      "quantity": "пара",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/Apocalypse-ap-m81a/zfdHgR0Cv.jpg",
-      "price": 7390
-   },
-   {
-      "id": 4,
-      "name": "Apocalypse AP-M67AN",
-      "brend": "Deaf Bonce",
-      "series": "Apocalypse",
-      "quantity": "пара",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/Apocalypse-ap-m67an/4qruJdS77.jpg",
-      "price": 14990
-   },
-   {
-      "id": 5,
-      "name": "Apocalypse AP-M60SQL",
-      "brend": "Deaf Bonce",
-      "series": "Apocalypse",
-      "quantity": "пара",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/Apocalypse-ap-m60sql/OtVt82axr.jpg",
-      "price": 5790
-   },
-   {
-      "id": 6,
-      "name": "Avatar MTU-61LE",
-      "brend": "Avatar",
-      "series": "Tsunami",
-      "quantity": "пара",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/Avatar-mtu-61le/2nL1sqTUT.jpg",
-      "price": 5790
-   },
-   {
-      "id": 7,
-      "name": "Avatar MTU-81LE",
-      "brend": "Avatar",
-      "series": "Tsunami",
-      "quantity": "пара",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/Avatar-mtu-81-le/Blxyg0T6J.jpg",
-      "price": 3290
-   },
-   {
-      "id": 8,
-      "name": "Avatar MTU-60LE",
-      "brend": "Avatar",
-      "series": "Tsunami",
-      "quantity": "пара",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/Avatar-mtu-60le/dNQibBTfn.jpg",
-      "price": 1890
-   },
-   {
-      "id": 9,
-      "name": "Hannibal MH-61 v2",
-      "brend": "Deaf Bonce",
-      "series": "Hannibal",
-      "quantity": "пара",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/Hannibal-mh-61-v2/6okRtU3sU.jpg",
-      "price": 3290
-   },
-   {
-      "id": 10,
-      "name": "Hannibal MH-50",
-      "brend": "Deaf Bonce",
-      "series": "Hannibal",
-      "quantity": "пара",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/Hannibal-mh-50/YhiOyucLa.jpg",
-      "price": 1990
-   },
-   {
-      "id": 11,
-      "name": "Hannibal MH-81 v2",
-      "brend": "Deaf Bonce",
-      "series": "Hannibal",
-      "quantity": "пара",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/Hannibal-mh-81v2/dPLwqWQiR.jpg",
-      "price": 4090
-   },
-   {
-      "id": 12,
-      "name": "Machete MM-80 V2",
-      "brend": "Deaf Bonce",
-      "series": "Machete",
-      "quantity": "пара",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/machete-mm-80-v2/Hl8jJ9KBk.jpg",
-      "price": 4490
-   },
-   {
-      "id": 13,
-      "name": "Machete MM-60 V2",
-      "brend": "Deaf Bonce",
-      "series": "Machete",
-      "quantity": "пара",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/machete-mm-60-v2/xV6epnfpN.jpg",
-      "price": 4490
-   },
-   {
-      "id": 14,
-      "name": "Machete MM-60 NEO",
-      "brend": "Deaf Bonce",
-      "series": "Machete",
-      "quantity": "пара",
-      "imageUrl": "https://alphardaudio.ru/media/speakers/machete-mm-60-neo/gHM7uFbeI.jpg",
-      "price": 4090
-   },
-   {
-      "id": 15,
-      "name": "Avatar SVL-1547 D1/D2",
-      "brend": "Avatar",
-      "series": "Volcano",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/subwoofers/Avatar-svl-1847d1-d2/rizElX9aB.jpg",
-      "price": 43990
-   },
-   {
-      "id": 16,
-      "name": "Avatar SVL-1847 D1/D2",
-      "brend": "Avatar",
-      "series": "Volcano",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/subwoofers/Avatar-svl-1847d1-d2/rizElX9aB.jpg",
-      "price": 44990
-   },
-   {
-      "id": 17,
-      "name": "Avatar STU-1546 D2",
-      "brend": "Avatar",
-      "series": "Tsunami",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/subwoofers/Avatar-stu-1246-d2/yK2FhTZzR.jpg",
-      "price": 27490
-   },
-   {
-      "id": 18,
-      "name": "Avatar STU-1246 D2",
-      "brend": "Avatar",
-      "series": "Tsunami",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/subwoofers/Avatar-stu-1546-d2/HCdkCnvMU.jpg",
-      "price": 25290
-   },
-   {
-      "id": 19,
-      "name": "Black Hydra HGS-2521",
-      "brend": "Black Hydra",
-      "series": "Gamma",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/subwoofers/blackhydra-hgs-2521/6I0qYmbDv.jpg",
-      "price": 12990
-   },
-   {
-      "id": 20,
-      "name": "Black Hydra HBA-4.130",
-      "brend": "Black Hydra",
-      "series": "Beta",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/amplifiers/blackhydra-hba-4-130/y8VYRYu6m.jpg",
-      "price": 84490
-   },
-   {
-      "id": 21,
-      "name": "Black Hydra HGA-4.100",
-      "brend": "Black Hydra",
-      "series": "Gamma",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/amplifiers/blackhydra-hga-4-100/g1G2UgWFl.jpg",
-      "price": 39490
-   },
-   {
-      "id": 22,
-      "name": "Black Hydra HDA-4.90",
-      "brend": "Black Hydra",
-      "series": "Delta",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/amplifiers/blackhydra-hda-4-90/2dNMjr5qA.jpg",
-      "price": 30990
-   },
-   {
-      "id": 23,
-      "name": "Avatar ABR-240.4",
-      "brend": "Avatar",
-      "series": "Buran",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/amplifiers/Avatar-abr-240-4/ybJM989qU.jpg",
-      "price": 4390
-   },
-   {
-      "id": 24,
-      "name": "Avatar ABR-360.4",
-      "brend": "Avatar",
-      "series": "Buran",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/amplifiers/Avatar-abr-360-4/xgdCM7xE1.jpg",
-      "price": 5490
-   },
-   {
-      "id": 25,
-      "name": "Avatar ABR-460.4",
-      "brend": "Avatar",
-      "series": "Buran",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/amplifiers/Avatar-abr-460-4/tmrapecco.jpg",
-      "price": 7190
-   },
-   {
-      "id": 26,
-      "name": "Avatar ABR-200.2",
-      "brend": "Avatar",
-      "series": "Buran",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/amplifiers/Avatar-abr-200-2/4zd4X806r.jpg",
-      "price": 3490
-   },
-   {
-      "id": 27,
-      "name": "Avatar AST-1200.1D",
-      "brend": "Avatar",
-      "series": "Storm",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/amplifiers/Avatar-ast-1200-1d/6s8JtffO0.jpg",
-      "price": 8890
-   },
-   {
-      "id": 28,
-      "name": "Avatar AST-2100.1D",
-      "brend": "Avatar",
-      "series": "Storm",
-      "quantity": "",
-      "imageUrl": "https://alphardaudio.ru/media/amplifiers/Avatar-ast-2100-1d/RYAvsvsSP.jpg",
-      "price": 10490
-   }
-]
+{
+   "products": [
+      {
+         "id": 1,
+         "name": "Apocalypse AP-M61AE",
+         "brend": "Deaf Bonce",
+         "series": "Apocalypse",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/Apocalypse-ap-m61ae/mdlJfJMjD.jpg",
+         "price": 5790
+      },
+      {
+         "id": 2,
+         "name": "Apocalypse AP-M81SE",
+         "brend": "Deaf Bonce",
+         "series": "Apocalypse",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/Apocalypse-ap-m81se/UzpJUd2h9.jpg",
+         "price": 5490
+      },
+      {
+         "id": 3,
+         "name": "Apocalypse AP-M81A",
+         "brend": "Deaf Bonce",
+         "series": "Apocalypse",
+         "quantity": "пара",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/Apocalypse-ap-m81a/zfdHgR0Cv.jpg",
+         "price": 7390
+      },
+      {
+         "id": 4,
+         "name": "Apocalypse AP-M67AN",
+         "brend": "Deaf Bonce",
+         "series": "Apocalypse",
+         "quantity": "пара",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/Apocalypse-ap-m67an/4qruJdS77.jpg",
+         "price": 14990
+      },
+      {
+         "id": 5,
+         "name": "Apocalypse AP-M60SQL",
+         "brend": "Deaf Bonce",
+         "series": "Apocalypse",
+         "quantity": "пара",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/Apocalypse-ap-m60sql/OtVt82axr.jpg",
+         "price": 5790
+      },
+      {
+         "id": 6,
+         "name": "Avatar MTU-61LE",
+         "brend": "Avatar",
+         "series": "Tsunami",
+         "quantity": "пара",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/Avatar-mtu-61le/2nL1sqTUT.jpg",
+         "price": 5790
+      },
+      {
+         "id": 7,
+         "name": "Avatar MTU-81LE",
+         "brend": "Avatar",
+         "series": "Tsunami",
+         "quantity": "пара",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/Avatar-mtu-81-le/Blxyg0T6J.jpg",
+         "price": 3290
+      },
+      {
+         "id": 8,
+         "name": "Avatar MTU-60LE",
+         "brend": "Avatar",
+         "series": "Tsunami",
+         "quantity": "пара",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/Avatar-mtu-60le/dNQibBTfn.jpg",
+         "price": 1890
+      },
+      {
+         "id": 9,
+         "name": "Hannibal MH-61 v2",
+         "brend": "Deaf Bonce",
+         "series": "Hannibal",
+         "quantity": "пара",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/Hannibal-mh-61-v2/6okRtU3sU.jpg",
+         "price": 3290
+      },
+      {
+         "id": 10,
+         "name": "Hannibal MH-50",
+         "brend": "Deaf Bonce",
+         "series": "Hannibal",
+         "quantity": "пара",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/Hannibal-mh-50/YhiOyucLa.jpg",
+         "price": 1990
+      },
+      {
+         "id": 11,
+         "name": "Hannibal MH-81 v2",
+         "brend": "Deaf Bonce",
+         "series": "Hannibal",
+         "quantity": "пара",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/Hannibal-mh-81v2/dPLwqWQiR.jpg",
+         "price": 4090
+      },
+      {
+         "id": 12,
+         "name": "Machete MM-80 V2",
+         "brend": "Deaf Bonce",
+         "series": "Machete",
+         "quantity": "пара",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/machete-mm-80-v2/Hl8jJ9KBk.jpg",
+         "price": 4490
+      },
+      {
+         "id": 13,
+         "name": "Machete MM-60 V2",
+         "brend": "Deaf Bonce",
+         "series": "Machete",
+         "quantity": "пара",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/machete-mm-60-v2/xV6epnfpN.jpg",
+         "price": 4490
+      },
+      {
+         "id": 14,
+         "name": "Machete MM-60 NEO",
+         "brend": "Deaf Bonce",
+         "series": "Machete",
+         "quantity": "пара",
+         "imageUrl": "https://alphardaudio.ru/media/speakers/machete-mm-60-neo/gHM7uFbeI.jpg",
+         "price": 4090
+      },
+      {
+         "id": 15,
+         "name": "Avatar SVL-1547 D1/D2",
+         "brend": "Avatar",
+         "series": "Volcano",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/subwoofers/Avatar-svl-1847d1-d2/rizElX9aB.jpg",
+         "price": 43990
+      },
+      {
+         "id": 16,
+         "name": "Avatar SVL-1847 D1/D2",
+         "brend": "Avatar",
+         "series": "Volcano",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/subwoofers/Avatar-svl-1847d1-d2/rizElX9aB.jpg",
+         "price": 44990
+      },
+      {
+         "id": 17,
+         "name": "Avatar STU-1546 D2",
+         "brend": "Avatar",
+         "series": "Tsunami",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/subwoofers/Avatar-stu-1246-d2/yK2FhTZzR.jpg",
+         "price": 27490
+      },
+      {
+         "id": 18,
+         "name": "Avatar STU-1246 D2",
+         "brend": "Avatar",
+         "series": "Tsunami",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/subwoofers/Avatar-stu-1546-d2/HCdkCnvMU.jpg",
+         "price": 25290
+      },
+      {
+         "id": 19,
+         "name": "Black Hydra HGS-2521",
+         "brend": "Black Hydra",
+         "series": "Gamma",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/subwoofers/blackhydra-hgs-2521/6I0qYmbDv.jpg",
+         "price": 12990
+      },
+      {
+         "id": 20,
+         "name": "Black Hydra HBA-4.130",
+         "brend": "Black Hydra",
+         "series": "Beta",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/amplifiers/blackhydra-hba-4-130/y8VYRYu6m.jpg",
+         "price": 84490
+      },
+      {
+         "id": 21,
+         "name": "Black Hydra HGA-4.100",
+         "brend": "Black Hydra",
+         "series": "Gamma",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/amplifiers/blackhydra-hga-4-100/g1G2UgWFl.jpg",
+         "price": 39490
+      },
+      {
+         "id": 22,
+         "name": "Black Hydra HDA-4.90",
+         "brend": "Black Hydra",
+         "series": "Delta",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/amplifiers/blackhydra-hda-4-90/2dNMjr5qA.jpg",
+         "price": 30990
+      },
+      {
+         "id": 23,
+         "name": "Avatar ABR-240.4",
+         "brend": "Avatar",
+         "series": "Buran",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/amplifiers/Avatar-abr-240-4/ybJM989qU.jpg",
+         "price": 4390
+      },
+      {
+         "id": 24,
+         "name": "Avatar ABR-360.4",
+         "brend": "Avatar",
+         "series": "Buran",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/amplifiers/Avatar-abr-360-4/xgdCM7xE1.jpg",
+         "price": 5490
+      },
+      {
+         "id": 25,
+         "name": "Avatar ABR-460.4",
+         "brend": "Avatar",
+         "series": "Buran",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/amplifiers/Avatar-abr-460-4/tmrapecco.jpg",
+         "price": 7190
+      },
+      {
+         "id": 26,
+         "name": "Avatar ABR-200.2",
+         "brend": "Avatar",
+         "series": "Buran",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/amplifiers/Avatar-abr-200-2/4zd4X806r.jpg",
+         "price": 3490
+      },
+      {
+         "id": 27,
+         "name": "Avatar AST-1200.1D",
+         "brend": "Avatar",
+         "series": "Storm",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/amplifiers/Avatar-ast-1200-1d/6s8JtffO0.jpg",
+         "price": 8890
+      },
+      {
+         "id": 28,
+         "name": "Avatar AST-2100.1D",
+         "brend": "Avatar",
+         "series": "Storm",
+         "quantity": "",
+         "imageUrl": "https://alphardaudio.ru/media/amplifiers/Avatar-ast-2100-1d/RYAvsvsSP.jpg",
+         "price": 10490
+      }
+   ]
+
+}
