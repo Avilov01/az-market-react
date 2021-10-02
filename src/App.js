@@ -1,3 +1,4 @@
+import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Card } from './components/Card';
@@ -276,7 +277,12 @@ function App() {
 
 	return (
 		<div className='max-w-screen-xl m-auto mt-2 pt-3  min-h-screen h-full'>
-			<Drawer opened={isCartOpened} onCloseCart={toggleCartOpened} totalPrice={totalPrice} />
+			<Drawer
+				isCartOpened={isCartOpened}
+				onCloseCart={toggleCartOpened}
+				totalPrice={totalPrice}
+			/>
+			
 			<Header onClickCart={toggleCartOpened} totalPrice={totalPrice} />
 			<div className='w-11/12 rounded-3xl bg-white m-auto shadow mt-5 pb-16'>
 				<div className='flex items-center justify-between mb-2 p-10'>
