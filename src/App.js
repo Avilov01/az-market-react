@@ -260,9 +260,11 @@ const data = [
 
 function App() {
 	const { products } = useSelector(state => state.products);
+	const { totalPrice } = useSelector(state => state.cart);
 	const dispatch = useDispatch();
 
-	const [isCartOpened, setIsCartOpened] = useState(false);
+	const [isCartOpened, setIsCartOpened] = useState(true);
+	const [searchValue, setSearchValue] = useState('');
 
 	useEffect(() => {
 		dispatch(addProducts(data));
@@ -274,8 +276,8 @@ function App() {
 
 	return (
 		<div className='max-w-screen-xl m-auto mt-2 pt-3  min-h-screen h-full'>
-			<Drawer opened={isCartOpened} onCloseCart={toggleCartOpened} />
-			<Header onClickCart={toggleCartOpened}/>
+			<Drawer opened={isCartOpened} onCloseCart={toggleCartOpened} totalPrice={totalPrice} />
+			<Header onClickCart={toggleCartOpened} totalPrice={totalPrice} />
 			<div className='w-11/12 rounded-3xl bg-white m-auto shadow mt-5 pb-16'>
 				<div className='flex items-center justify-between mb-2 p-10'>
 					<h1 className='text-4xl font-bold'>Все товары</h1>
@@ -285,20 +287,29 @@ function App() {
 							className='h-10 w-52 text-base outline-none'
 							placeholder='Найти...'
 							type='text'
+							value={searchValue}
+							onChange={e => setSearchValue(e.target.value)}
 						/>
 					</div>
 				</div>
 				{/* Card */}
 
 				<div className='flex justify-start flex-wrap px-10 gap-5'>
-					{products.map(product => (
-						<Card
-							key={product.id}
-							name={product.name}
-							price={product.price}
-							imageUrl={product.imageUrl}
-						/>
-					))}
+					{products &&
+						products
+							.filter(product =>
+								product.name.toLowerCase().includes(searchValue.toLowerCase()),
+							)
+
+							.map(product => (
+								<Card
+									key={product.id}
+									id={product.id}
+									name={product.name}
+									price={product.price}
+									imageUrl={product.imageUrl}
+								/>
+							))}
 				</div>
 			</div>
 		</div>
