@@ -263,7 +263,7 @@ function App() {
 	const { totalPrice } = useSelector(state => state.cart);
 	const dispatch = useDispatch();
 
-	const [isCartOpened, setIsCartOpened] = useState(true);
+	const [isCartOpened, setIsCartOpened] = useState(false);
 	const [searchValue, setSearchValue] = useState('');
 
 	useEffect(() => {

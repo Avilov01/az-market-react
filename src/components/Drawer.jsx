@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { CartItem } from './CartItem';
@@ -12,7 +13,10 @@ export const Drawer = ({ opened, onCloseCart, totalPrice }) => {
 				opened ? ' hidden' : ''
 			} left-0 top-0 w-full h-full bg-black bg-opacity-50 z-10 fixed`}>
 			{/* Drawwer */}
-			<div
+			<motion.div
+				initial={{ x: 500 }}
+				animate={{ x: 0 }}
+				transition={{ duration: 1.5, duration: 0.8 }}
 				className='fixed flex flex-col p-6 h-full w-112 bg-white right-0 shadow-xl'
 				onClick={e => e.stopPropagation()}>
 				<h3 className='flex items-center justify-between mb-6 mx-0.5 font-bold text-3xl'>
@@ -51,7 +55,7 @@ export const Drawer = ({ opened, onCloseCart, totalPrice }) => {
 						Оформить заказ
 					</button>
 				</div>
-			</div>
+			</motion.div>
 		</div>
 	);
 };
