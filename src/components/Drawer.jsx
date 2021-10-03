@@ -22,7 +22,7 @@ export const Drawer = ({ onCloseCart, totalPrice, isCartOpened }) => {
 						initial={{ x: 500 }}
 						animate={{ x: 0 }}
 						exit={{ x: 500 }}
-						transition={{ duration: 0.5, type: 'just', delay: 0.2 }}
+						transition={{ duration: 0.7, type: 'spring', delay: 0.1 }}
 						//
 						style={{ opacity: 1 }}
 						className=' fixed flex flex-col p-6 h-full w-112 bg-white right-0 shadow-xl'
@@ -59,7 +59,9 @@ export const Drawer = ({ onCloseCart, totalPrice, isCartOpened }) => {
 									<b>{totalPrice} руб.</b>
 								</li>
 							</ul>
-							<button className='bg-red-600 hover:bg-red-500 rounded-3xl animate-bounce font-medium text-lg text-white h-14 w-full'>
+							<button
+								onClick={() => alert('Функционал в стадии доработки, повторите позже!')}
+								className='bg-red-600 hover:bg-red-500 rounded-3xl animate-bounce font-medium text-lg text-white h-14 w-full'>
 								Оформить заказ
 							</button>
 						</div>

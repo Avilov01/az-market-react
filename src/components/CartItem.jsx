@@ -9,6 +9,7 @@ export const CartItem = ({ imageUrl, name, price, id }) => {
 		dispatch(removeProductCart({ id, price }));
 	};
 
+
 	return (
 		<div className=' bg-white w-9/10 p-3 mx-2 mb-5 mt-2 group transition overflow-hidden ease-in-out duration-300 hover:shadow-lg hover:-translate-y-1 hover:translate-x-0.5 transform rounded-2xl flex justify-between items-center border border-opacity-60'>
 			<img className=' h-20' src={imageUrl} alt='cart product' />

@@ -1,7 +1,6 @@
 import React from 'react';
 
 export const Header = ({ onClickCart, totalPrice }) => {
-
 	return (
 		<header className='flex justify-between px-8 py-5 w-11/12 m-auto shadow rounded-3xl bg-white'>
 			<div className='flex items-center'>
@@ -23,7 +22,12 @@ export const Header = ({ onClickCart, totalPrice }) => {
 					<span className='pl-2'>{totalPrice} руб.</span>
 				</li>
 				<li>
-					<img className='h-6 opacity-70' src='/img/user.svg' alt='user' />
+					<img
+						onClick={() => alert('Функционал в стадии доработки, повторите позже!')}
+						className='h-6 opacity-70'
+						src='/img/user.svg'
+						alt='user'
+					/>
 				</li>
 			</ul>
 		</header>

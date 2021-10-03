@@ -1,14 +1,18 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { addProductToCart } from '../redux/cartSlice';
+import { useDispatch } from 'react-redux';
+import { addProductToCart, removeProductCart } from '../redux/cartSlice';
 
-export const Card = ({ name, imageUrl, price, id, addToCart }) => {
+export const Card = ({ name, imageUrl, price, id, isProductInCart }) => {
 	const dispatch = useDispatch();
 
 	const cartItem = { name, imageUrl, price, id };
 
 	const onClickPlus = () => {
 		dispatch(addProductToCart(cartItem));
+	};
+
+	const onRemoveProductCart = () => {
+		dispatch(removeProductCart({ id, price }));
 	};
 
 	return (
@@ -24,15 +28,25 @@ export const Card = ({ name, imageUrl, price, id, addToCart }) => {
 				</div>
 				<div className='flex gap-2'>
 					<div>
-						<img
-							className='cursor-pointer h-9'
-							src='/img/plus.svg'
-							alt='plus'
-							onClick={onClickPlus}
-						/>
+						{isProductInCart(id) ? (
+							<img
+								className='cursor-pointer h-9'
+								src='/img/added.svg'
+								alt='remove'
+								onClick={onRemoveProductCart}
+							/>
+						) : (
+							<img
+								className='cursor-pointer h-9'
+								src='/img/plus.svg'
+								alt='plus'
+								onClick={onClickPlus}
+							/>
+						)}
 					</div>
 					<div>
 						<img
+							onClick={() => alert('Функционал в стадии доработки, повторите позже!')}
 							className='cursor-pointer h-9 hover:shadow-2xl'
 							src='/img/unliked.svg'
 							alt=''

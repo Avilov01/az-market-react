@@ -1,4 +1,3 @@
-import { AnimatePresence, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Card } from './components/Card';
@@ -261,8 +260,12 @@ const data = [
 
 function App() {
 	const { products } = useSelector(state => state.products);
-	const { totalPrice } = useSelector(state => state.cart);
+	const { totalPrice, productsCart = products } = useSelector(state => state.cart);
 	const dispatch = useDispatch();
+
+	const isProductInCart = id => productsCart.some(product => product.id === id);
+
+	
 
 	const [isCartOpened, setIsCartOpened] = useState(false);
 	const [searchValue, setSearchValue] = useState('');
@@ -282,7 +285,7 @@ function App() {
 				onCloseCart={toggleCartOpened}
 				totalPrice={totalPrice}
 			/>
-			
+
 			<Header onClickCart={toggleCartOpened} totalPrice={totalPrice} />
 			<div className='w-11/12 rounded-3xl bg-white m-auto shadow mt-5 pb-16'>
 				<div className='flex items-center justify-between mb-2 p-10'>
@@ -314,6 +317,7 @@ function App() {
 									name={product.name}
 									price={product.price}
 									imageUrl={product.imageUrl}
+									isProductInCart={isProductInCart}
 								/>
 							))}
 				</div>
