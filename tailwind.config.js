@@ -4,13 +4,13 @@ module.exports = {
 	theme: {
 		extend: {
 			spacing: {
-				'112': '28rem',
-				'120': '30rem',
+				112: '28rem',
+				120: '30rem',
 			},
 
 			transitionDuration: {
-				'250': '250ms',
-				'275': '275ms',
+				250: '250ms',
+				275: '275ms',
 			},
 		},
 	},
@@ -23,7 +23,9 @@ module.exports = {
 			boxShadow: ['active'],
 			backgroundColor: ['active'],
 			backgroundOpacity: ['active'],
+			fill: ['hover', 'focus'],
 		},
+
 	},
 
 	plugins: [],

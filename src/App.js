@@ -265,8 +265,6 @@ function App() {
 
 	const isProductInCart = id => productsCart.some(product => product.id === id);
 
-	
-
 	const [isCartOpened, setIsCartOpened] = useState(false);
 	const [searchValue, setSearchValue] = useState('');
 
