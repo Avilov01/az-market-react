@@ -288,7 +288,7 @@ function App() {
 			<div className='w-11/12 rounded-3xl bg-white m-auto shadow mt-5 pb-16'>
 				<div className='flex items-center justify-between mb-2 p-10'>
 					<h1 className='text-4xl font-bold'>Все товары</h1>
-					<div className='flex items-center border border-opacity-80 shadow-sm rounded-xl px-4'>
+					<div className='flex items-center border border-opacity-90 shadow-sm rounded-xl px-4'>
 						<img className='h-6 mr-1 opacity-50' src='/img/search.svg' alt='search' />
 						<input
 							className='h-10 w-52 text-base outline-none'
@@ -316,6 +316,7 @@ function App() {
 									price={product.price}
 									imageUrl={product.imageUrl}
 									isProductInCart={isProductInCart}
+									openCart={toggleCartOpened}
 								/>
 							))}
 				</div>

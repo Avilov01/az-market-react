@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { addProductToCart, removeProductCart } from '../redux/cartSlice';
 
-export const Card = ({ name, imageUrl, price, id, isProductInCart }) => {
+export const Card = ({ name, imageUrl, price, id, isProductInCart, openCart }) => {
 	const dispatch = useDispatch();
 
 	const cartItem = { name, imageUrl, price, id };
@@ -11,9 +11,9 @@ export const Card = ({ name, imageUrl, price, id, isProductInCart }) => {
 		dispatch(addProductToCart(cartItem));
 	};
 
-	const onRemoveProductCart = () => {
-		dispatch(removeProductCart({ id, price }));
-	};
+	// const onRemoveProductCart = () => {
+	// 	dispatch(removeProductCart({ id, price }));
+	// };
 
 	return (
 		<div className='border border-opacity-80 p-5 rounded-3xl w-64 hover:shadow-2xl hover:-translate-y-2 transition duration-275 transform ease-in-out hover:border-opacity-50'>
@@ -29,22 +29,22 @@ export const Card = ({ name, imageUrl, price, id, isProductInCart }) => {
 				<div>
 					{isProductInCart(id) ? (
 						<button
-							onClick={onRemoveProductCart}
-							className=' hover:bg-gray-300 w-24 bg-gray-200 text-base font-bold py-1.5 rounded-md'>
-							в корзине
+							onClick={openCart}
+							className=' border border-current hover:bg-gray-100 w-24 text-gray-700  text-base font-semibold py-1.5 rounded-md'>
+							В корзине
 						</button>
 					) : (
 						<button
 							onClick={onAddProductCart}
-							className=' hover:bg-red-600 w-24 bg-red-500 text-white text-base font-bold py-1.5 rounded-md'>
-							в корзину
+							className=' border border-current w-24 hover:bg-red-600 bg-red-500 text-white text-base font-semibold py-1.5 rounded-md'>
+							В корзину
 						</button>
 					)}
 				</div>
 				<div>
 					<svg
 						onClick={() => alert('Функционал в стадии доработки, повторите позже!')}
-						className=' fill-current text-gray-400  hover:opacity-80 opacity-30 cursor-pointer h-7 hover:shadow-2xl'
+						className=' fill-current text-gray-200  hover:text-red-300  cursor-pointer h-7 hover:shadow-2xl'
 						alt=''
 						x='0px'
 						y='0px'
@@ -54,13 +54,6 @@ export const Card = ({ name, imageUrl, price, id, isProductInCart }) => {
 	l6.12-6.502l0.612-0.65c1.69-1.795,1.69-4.706,0-6.502C13.042,0.551,10.302,0.551,8.612,2.347z'
 						/>
 					</svg>
-
-					{/* <img
-						onClick={() => alert('Функционал в стадии доработки, повторите позже!')}
-						className=' fill-current text-pink-400  hover:opacity-80 opacity-30 cursor-pointer h-8 hover:shadow-2xl'
-						src='/img/liked.svg'
-						alt=''
-					/> */}
 				</div>
 			</div>
 		</div>
